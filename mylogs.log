@@ -1,4 +1,13 @@
-processing...
-Downloading...
-uploading....
-testing...
+These are the steps to push from our local gitbash to gitHub 
+1. Open gitbash
+2. Create a repo in GITHUB
+3. initialize git in your local directory
+$git init
+4. add files to staging area
+$git add "filename"/ git add .
+5. move files from staging area to local repo
+$git commit -m "message"
+6.Add remote repo with local repo
+$git remote add origin  "remote repo url"
+7. push files from local repo to remote repo
+$git push -f origin master.
